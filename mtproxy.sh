@@ -1,4 +1,5 @@
 #!/bin/bash
+mkdir /opt/mtproxy && cd /opt/mtproxy
 WORKDIR=$(dirname $(readlink -f $0))
 cd $WORKDIR
 pid_file=$WORKDIR/pid/pid_mtproxy
