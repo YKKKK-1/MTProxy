@@ -5,9 +5,6 @@
 执行如下代码进行安装
 
 ```bash
-## 新建目录
-mkdir /home/mtproxy && cd /home/mtproxy
-
 ## 开始安装
 curl -s -o mtproxy.sh https://raw.githubusercontent.com/YKKKK-1/MTProxy/master/mtproxy.sh && chmod +x mtproxy.sh && bash mtproxy.sh
 ```
@@ -44,7 +41,7 @@ bash mtproxy.sh restart
 因为是绿色版卸载极其简单，直接删除所在目录即可。
 
 ```bash
-rm -rf /home/mtproxy
+rm -rf /opt/mtproxy
 ```
 
 ## 开机启动
