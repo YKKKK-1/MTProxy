@@ -1,4 +1,4 @@
-# MTProxy TLS 绿色版一键安装脚本
+# MTProxy
 
 ## 安装
 
@@ -9,10 +9,8 @@
 mkdir /home/mtproxy && cd /home/mtproxy
 
 ## 开始安装
-curl -s -o mtproxy.sh https://raw.githubusercontent.com/sunpma/mtp/master/mtproxy.sh && chmod +x mtproxy.sh && bash mtproxy.sh
+curl -s -o mtproxy.sh https://raw.githubusercontent.com/YKKKK-1/MTProxy/master/mtproxy.sh && chmod +x mtproxy.sh && bash mtproxy.sh
 ```
-
- ![demo.png](https://raw.githubusercontent.com/sunpma/mtp/master/demo.png)
 
 ## 使用
 
